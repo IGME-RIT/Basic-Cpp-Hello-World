@@ -1,10 +1,10 @@
 series: C++ IO
-title: Basic Console IO
+title: Hello World!
 author:
   name: David Erbelding
   email: daviderbelding@gmail.com
   github: https://github.com/Erbelding
-description: A basic console application using string and iostream.
+description: This program is very excited to meet you.
 language: C++
 tags:
   - Core
