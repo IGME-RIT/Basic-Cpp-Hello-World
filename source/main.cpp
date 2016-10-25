@@ -69,11 +69,10 @@ int main()
 
 
 
-    // Lastly, we call system() passing in "pause"
-    // This prints out "Press any key to continue . . . "
-    // Just as it says, it also stops the program until the user presses a key.
-    // If we didn't do this, the program would run, and then immediately close.
-	system("pause");
+    // Lastly, we call cin.get()
+    // This waits for the user to press enter, and gives you the first character they typed before that.
+    // We aren't actually the character pressed, we're just waiting for the user to press enter to end the program.
+	cin.get();
 
 
     // At the end of main, we return 0 because the program worked!
